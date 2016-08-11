@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>snap</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <h1>Snap.svg API效果图</h1>
+    <ul id="container">
+        <li class="box">
+            <h3>Element.after(el)</h3>
+            <div class="content">
+                <svg id="svg1" width="100%" height="100"></svg>
+                <input id="button1" type="button" value="点击改变圈圈的顺序">
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.animate(attrs, duration, [easing], [callback])</h3>
+            <div class="content">
+                <svg id="svg2" width="100%" height="100"></svg>
+                <input id="button2" type="button" value="点击颜色变变变">
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.append(el)</h3>
+            <div class="content">
+                <svg id="svg3" width="100%" height="100"></svg>
+                <svg id="svg4" width="100%" height="100"></svg>
+                <input id="button3" type="button" value="点击颜色变变变">
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.asPX(attr, [value])</h3>
+            <div class="content">
+                <svg id="svg5" width="100%" height="100"></svg>
+                <div id="div1"></div>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.attr(...)</h3>
+            <div class="content">
+                <svg id="svg6" width="100%" height="100"></svg>
+                <div id="div2"></div>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.before(el)</h3>
+            <div class="content">
+                <svg id="svg7" width="100%" height="100"></svg>
+                <input id="button4" type="button" value="点击改变圈圈的顺序">
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.click(handler)</h3>
+            <div class="content">
+                <svg id="svg8" width="100%" height="100"></svg>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.clone()</h3>
+            <div class="content">
+                <svg id="svg9" width="100%" height="100"></svg>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.data(key, [value])</h3>
+            <div class="content">
+                <svg id="svg10" width="100%" height="100"></svg>
+                <div id="div3"></div>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.dblclick(handler)</h3>
+            <div class="content">
+                <svg id="svg11" width="100%" height="200"></svg>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.drag(onmove, onstart, onend, [mcontext], [scontext], [econtext])</h3>
+            <div class="content">
+                <svg id="svg12" width="100%" height="100"></svg>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.getBBox()</h3>
+            <div class="content">
+                <svg id="svg13" width="100%" height="100"></svg>
+                <div id="div4"></div>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.getPointAtLength(length)</h3>
+            <div class="content">
+                <svg id="svg14" width="100%" height="100"></svg>
+                <div id="div5"></div>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.getSubpath(from, to)</h3>
+            <div class="content">
+                <svg id="svg15" width="100%" height="100"></svg>
+                <div id="div6"></div>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.getTotalLength()</h3>
+            <div class="content">
+                <svg id="svg16" width="100%" height="100"></svg>
+                <div id="div7"></div>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.hover(f_in, f_out, [icontext], [ocontext])</h3>
+            <div class="content">
+                <svg id="svg17" width="100%" height="100"></svg>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.inAnim()<br>返回可能操作当前元素的一组动画</h3>
+            <div class="content">
+                <svg id="svg18" width="100%" height="100"></svg>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.innerSVG()<br>返回元素内容的SVG代码。近似于HTML中的innerHTML方法。</h3>
+            <div class="content">
+                <svg id="svg19" width="100%" height="100"></svg>
+                <div id="div8"></div>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.insertAfter(el)</h3>
+            <div class="content">
+                <svg id="svg20" width="100%" height="100"></svg>
+                <input id="button5" type="button" value="点击改变圈圈的顺序">
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.insertBefore(el)</h3>
+            <div class="content">
+                <svg id="svg21" width="100%" height="100"></svg>
+                <input id="button6" type="button" value="点击改变圈圈的顺序">
+            </div>
+        </li>
+        <li class="box">
+            <h3>？？？Element.marker(x, y, width, height, refX, refY)</h3>
+            <div class="content">
+                <svg id="svg22" width="100%" height="100"></svg>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.mousedown(handler)<br>Element.mouseup(handler)</h3>
+            <div class="content">
+                <svg id="svg23" width="100%" height="100%"></svg>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.mousemove(handler)<br>Element.mouseout(handler)</h3>
+            <div class="content">
+                <svg id="svg24" width="100%" height="100%"></svg>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.mouseover(handler)</h3>
+            <div class="content">
+                <svg id="svg25" width="100%" height="100%"></svg>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.parent()</h3>
+            <div class="content">
+                <svg id="svg26" width="100%" height="100%"></svg>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.pattern(x, y, width, height)</h3>
+            <div class="content">
+                <svg id="svg27" width="100%" height="100%"></svg>
+            </div>
+        </li>
+        <li class="box">
+            <h3>Element.pattern(x, y, width, height)路径直接写在页面内</h3>
+            <div class="content">
+                <svg id="svg28" width="100%" height="100%">
+                    <path id="p8" d="M10-5-10,15M15,0,0,15M0-5-20,15" stroke="green" stroke-width="3"
+                          fill="none" />
+                </svg>
+            </div>
+        </li>
+        <!--一些缓动函数-->
+        <li class="box">
+            <h3>mina(a, A, b, B, get, set, [easing])</h3>
+            <div class="content">
+                <svg id="svg29" width="100%" height="100%"></svg>
+                <input id="button7" type="button" value="点击运动">
+            </div>
+        </li>
+        <li class="box">
+            <h3>mina.backin(n)</h3>
+            <div class="content">
+                <svg id="svg30" width="100%" height="100%"></svg>
+                <input id="button8" type="button" value="点击运动">
+            </div>
+        </li>
+        <li class="box">
+            <h3>mina.backout(n)</h3>
+            <div class="content">
+                <svg id="svg31" width="100%" height="100%"></svg>
+                <input id="button9" type="button" value="点击运动">
+            </div>
+        </li>
+        <li class="box">
+            <h3>mina.bounce(n)</h3>
+            <div class="content">
+                <svg id="svg32" width="100%" height="100%"></svg>
+                <input id="button10" type="button" value="点击运动">
+            </div>
+        </li>
+        <li class="box">
+            <h3>mina.easein(n)</h3>
+            <div class="content">
+                <svg id="svg33" width="100%" height="100%"></svg>
+                <input id="button11" type="button" value="点击运动">
+            </div>
+        </li>
+        <li class="box">
+            <h3>mina.easeinout(n)</h3>
+            <div class="content">
+                <svg id="svg34" width="100%" height="100%"></svg>
+                <input id="button12" type="button" value="点击运动">
+            </div>
+        </li>
+        <li class="box">
+            <h3>mina.easeout(n)</h3>
+            <div class="content">
+                <svg id="svg35" width="100%" height="100%"></svg>
+                <input id="button13" type="button" value="点击运动">
+            </div>
+        </li>
+        <li class="box">
+            <h3>mina.elastic(n)</h3>
+            <div class="content">
+                <svg id="svg36" width="100%" height="100%"></svg>
+                <input id="button14" type="button" value="点击运动">
+            </div>
+        </li>
+        <li class="box">
+            <h3>mina.linear(n)</h3>
+            <div class="content">
+                <svg id="svg37" width="100%" height="100%"></svg>
+                <input id="button15" type="button" value="点击运动">
+            </div>
+        </li>
+        <li class="box">
+            <h3>mina.time()</h3>
+            <div class="content">
+                <svg id="svg38" width="100%" height="100%"></svg>
+                <input id="button16" type="button" value="点击获取时间戳">
+            </div>
+        </li>
+
+
+
+
+        <li class="box">
+            <h3 contenteditable="true">contenteditable属性为true时，该h3标题为可编辑标题</h3>
+            <div class="content">
+                与contenteditable属性无关的css控制法
+                <strong>user-modify: read-only;</strong>
+                <p class="read-only p"></p>
+                <strong>user-modify: read-write;</strong>
+                <p class="read-write p"></p>
+                <strong>user-modify: write-only;</strong>
+                <p class="write-only p"></p>
+                <strong>user-modify: read-write-plaintext-only;</strong>
+                <p class="read-write-plaintext-only p"></p>
+            </div>
+        </li>
+    </ul>
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/snap.svg.js"></script>
+    <script src="./js/masonry.pkgd.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+        <!--流式布局-->
+        $(function(){
+            $("#container").masonry({
+                itemSelector:".box"
+            });
+        });
+    </script>
+</body>
+</html>
